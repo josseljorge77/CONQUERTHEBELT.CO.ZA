@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description"content="Request information about fighting games, accessories and gaming products from Conquer The Belt Games.">
+   <meta name="keywords"content="Fighting Games, Tekken 8, Street Fighter 6, Arcade Stick, Gaming Store">
+    <title>Enquiry - CONQUER THE BELT</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Enquiry</h1>
+
+    <nav class="top-nav">
+        <div class="nav-logo">CTB Games</div>
+        <button class="nav-toggle">☰</button>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="enquiry.html">ENQUIRY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Request Information</h2>
+        <p>Use the form below to request information about products, accessories or fighting games.</p>
+
+        <form id="enquiryForm">
+
+<div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" id="name" minlength="3" required>
+</div>
+
+<div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+</div>
+
+<div class="form-group">
+    <label for="product">Product of Interest:</label>
+    <input type="text" id="product" placeholder="Ex: Tekken 8, Fightstick Pro" required>
+</div>
+
+<div class="form-group">
+    <label for="message">Message:</label>
+    <textarea id="message" minlength="10" required></textarea>
+</div>
+
+<p id="enquiryError"></p>
+
+
+</form>
+
+            <p id="enquiryError"></p>
+            <button type="submit">Submit Request</button>
+        </form>
+    </section>
+</main>
+<section class="faq">
+
+<h2>Frequently Asked Questions</h2>
+
+<button class="accordion">
+Do you sell physical games?
+</button>
+
+<div class="panel">
+<p>
+Yes, we stock both physical and digital fighting games.
+</p>
+</div>
+
+<button class="accordion">
+Do you sell arcade sticks?
+</button>
+
+<div class="panel">
+<p>
+Yes, we offer arcade sticks and hitbox controllers.
+</p>
+</div>
+
+</section>
+<footer>
+    <p>© 2026 Conquer The Belt Games</p>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>
